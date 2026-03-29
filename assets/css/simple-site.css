@@ -95,6 +95,18 @@ nav.scrolled {
   font-size: 1.35rem;
   font-weight: 700;
   color: var(--primary-teal);
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo img {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 6px 18px rgba(0, 77, 77, 0.12);
 }
 
 .nav-links {
@@ -113,6 +125,12 @@ nav.scrolled {
 .nav-links a:hover,
 .nav-links a.is-active {
   color: var(--primary-teal);
+}
+
+.nav-links a.btn.btn-primary,
+.nav-links a.btn.btn-primary:hover,
+.nav-links a.btn.btn-primary.is-active {
+  color: var(--white);
 }
 
 .hero {
@@ -358,6 +376,22 @@ nav.scrolled {
 .info-card,
 .detail-card {
   padding: 28px;
+}
+
+.info-icon {
+  width: 54px;
+  height: 54px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 16px;
+  border-radius: 16px;
+  background: rgba(0, 77, 77, 0.08);
+  color: var(--primary-teal);
+}
+
+.info-icon svg {
+  width: 28px;
+  height: 28px;
 }
 
 .service-card {
