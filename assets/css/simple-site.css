@@ -95,16 +95,8 @@ nav.scrolled {
   font-size: 1.35rem;
   font-weight: 700;
   color: var(--primary-teal);
-  display: inline-flex;
-  align-items: center;
+  display: inline-block;
   flex-shrink: 0;
-}
-
-.logo img {
-  width: auto;
-  height: 72px;
-  max-width: 100%;
-  object-fit: contain;
 }
 
 .nav-links {
@@ -530,10 +522,6 @@ footer {
   .nav-wrap {
     flex-direction: column;
     align-items: flex-start;
-  }
-
-  .logo img {
-    height: 58px;
   }
 
   .nav-links {
